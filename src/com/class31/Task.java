@@ -19,7 +19,6 @@ public class Task {
 	
 	
 	
-	private static final String Iteriator = null;
 
 	public static void main(String[] args) {
 		
@@ -88,16 +87,16 @@ public class Task {
 		words.add("Jonah");
 		
 		
-Iterator<String> Word= words.iterator();
+Iterator<String> it1= words.iterator();
 		
-		while (Word.hasNext()) {
+		while (it1.hasNext()) {
 			
-			String WordList= Word.next();
+			String WordList= it1.next();
 		
 			
 			if(WordList.endsWith("e")) {
 				
-				Word.remove();
+				it1.remove();
 				
 				// System.out.println(words);
 				
